@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next2Play</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/Next2Play1.jpg" type="jpg">
+</head>
+<body>
+    <!--Menú principal de arriba-->
+    <header>
+        <nav class="navbar">
+            <a href="index.html"><img src="img/Next2Play3.jpg" id="imagennavbar" alt="icono de Next2Play"></a>
+            <div class="navcenter">
+            <ul class="navlinks">
+                <li><a href="index.html">Recomendador</a></li>
+                <li><a href="randomizer.html">Randomizador</a></li>
+                <li><a href="biblioteca.html">Biblioteca</a></li>
+                <li><a href="todoslosjuegos.html">Explorar juegos</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <!--Seccion principal-->
+    <main>
+        <section class="textoprincipal">
+            <h1>¿No sabes a que jugar?</h1>
+            <p>Di que juegos te gustan y deja que te hagamos nosotros las recomendaciones</p> 
+        </section>
+
+        <section class="gustos">
+            <form action="/buscar" method="get">
+                <input type="search" class="buscadorvideojuegos" name="query" placeholder="Escribe los videojuegos que te gustan"/> 
+                <button type="submit" class="botonbuscar">Buscar</button>
+            </form>
+        </section>
+        <section class="textorecomendacion">
+            <h2>Deberias jugar a....</h2>
+        </section>
+
+        <section class="tarjeta recomendacion">
+
+        </section>
+    </main>
+    <footer>
+        <p>© Next2play está actualmente en construcción</p>
+    </footer>
+</body>
+</html>

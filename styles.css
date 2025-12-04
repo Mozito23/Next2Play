@@ -36,7 +36,7 @@ main {
 }
 
 .navlinks li a {
-    display: block;
+    display: inline-block;
     padding: 10px;
     background-color: #7B3FA2;
     text-decoration: none;
@@ -45,6 +45,7 @@ main {
     transition: background 0.3s, transform 0.2s; /* efecto hover */
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
 .navlinks li a:hover {
@@ -71,16 +72,25 @@ main {
     
 }
 
+footer p {
+    border-radius: 20px;
+    margin: 16px;
+}
 
-footer {
+.footerflotante {
     position: absolute;
     bottom: 0;
     background-color: aquamarine;
     display: flex;
-    width: 100%;
+    width: 75%;
     justify-content: center;
-    border-radius: 50% 50% 0% 0%;
+    border-radius: 15px 15px 15px 15px;
     font-size: xx-large;
     font-weight: bolder;
-   
+    margin: 0 auto 10px;  
+    left: 0;
+    right: 0;
+    opacity: 70%;
+    box-shadow: inset 8px 8px 20px rgba(0, 0, 0, 0.3);
+
 }
